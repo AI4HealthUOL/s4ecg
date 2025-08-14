@@ -53,7 +53,7 @@ Set the desired config file using the `--config-name` flag. Example for a time-s
 python main.py --config-name=config_id_icentia.yaml
 ```
 
-You can use other config settings by specifying different `.yaml` files located in the `./classification/code/conf` directory. We provide config files for the best-performing model architectures for time series and spectrograms as input representations.
+You can use other config settings by specifying different `.yaml` files located in the `./conf` directory.
 
 For ood test the path of trained model should be denoted as:
 ```
